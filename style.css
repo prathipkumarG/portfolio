@@ -1,0 +1,1024 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.head {
+    color: rgb(11, 160, 193);
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px;
+    text-shadow: rgba(62, 149, 196, 0.9) 0px 0px 39px;
+
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.back {
+    background-color: #111826;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 2px solid white;
+}
+
+.cont {
+    display: flex;
+}
+
+.chan:hover {
+    color: #07e7f7;
+}
+
+/* From Uiverse.io by nima-mollazadeh */
+.button {
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(45deg, #0ce39a, #69007f, #fc0987);
+    padding: 14px 25px;
+    border-radius: 10px;
+    font-size: 1.25em;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.button span {
+    position: relative;
+    z-index: 1;
+}
+
+.button::before {
+    content: "";
+    position: absolute;
+    inset: 1px;
+    background: #272727;
+    border-radius: 9px;
+    transition: 0.5s;
+}
+
+.button:hover::before {
+    opacity: 0.7;
+}
+
+.button::after {
+    content: "";
+    position: absolute;
+    inset: 0px;
+    background: linear-gradient(45deg, #0ce39a, #69007f, #fc0987);
+    border-radius: 9px;
+    transition: 0.5s;
+    opacity: 0;
+    filter: blur(20px);
+}
+
+.button:hover:after {
+    opacity: 1;
+}
+
+
+/* below navbar */
+
+
+
+.image {
+    height: 200px;
+    width: 200px;
+    border-radius: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.images {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 350px;
+    width: 350px;
+    border-radius: 400px;
+}
+
+.imagess {
+    height: 400px;
+    width: 400px;
+    border-radius: 400px;
+}
+
+
+/* typewriting effect */
+
+.role::after {
+    content: "";
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    border-right: 2px solid #8bf;
+    animation: typing 18s steps(1) infinite;
+
+}
+
+@keyframes typing {
+
+    /* Frontend Developer */
+    0%,
+    2.5% {
+        content: "";
+    }
+
+    3% {
+        content: "f";
+    }
+
+    3.5% {
+        content: "fr";
+    }
+
+    4% {
+        content: "fro";
+    }
+
+    4.5% {
+        content: "fron";
+    }
+
+    5% {
+        content: "front";
+    }
+
+    5.5% {
+        content: "fronte";
+    }
+
+    6% {
+        content: "fronten";
+    }
+
+    6.5% {
+        content: "frontend";
+    }
+
+    7% {
+        content: "frontend ";
+    }
+
+    7.5% {
+        content: "frontend d";
+    }
+
+    8% {
+        content: "frontend de";
+    }
+
+    8.5% {
+        content: "frontend dev";
+    }
+
+    9% {
+        content: "frontend deve";
+    }
+
+    9.5% {
+        content: "frontend devel";
+    }
+
+    10% {
+        content: "frontend develo";
+    }
+
+    10.5% {
+        content: "frontend develop";
+    }
+
+    11% {
+        content: "frontend develope";
+    }
+
+    11.5% {
+        content: "frontend developer";
+    }
+
+    /* Pause */
+    12% {
+        content: "frontend developer";
+    }
+
+    /* Erase */
+    12.5% {
+        content: "frontend develope";
+    }
+
+    13% {
+        content: "frontend develop";
+    }
+
+    13.5% {
+        content: "frontend develo";
+    }
+
+    14% {
+        content: "frontend devel";
+    }
+
+    14.5% {
+        content: "frontend deve";
+    }
+
+    15% {
+        content: "frontend dev";
+    }
+
+    15.5% {
+        content: "frontend de";
+    }
+
+    16% {
+        content: "frontend d";
+    }
+
+    16.5% {
+        content: "frontend ";
+    }
+
+    17% {
+        content: "frontend";
+    }
+
+    17.5% {
+        content: "fronten";
+    }
+
+    18% {
+        content: "fronte";
+    }
+
+    18.5% {
+        content: "front";
+    }
+
+    19% {
+        content: "fron";
+    }
+
+    19.5% {
+        content: "fro";
+    }
+
+    20% {
+        content: "fr";
+    }
+
+    20.5% {
+        content: "f";
+    }
+
+    21% {
+        content: "";
+    }
+
+    /* Web Developer */
+    21.5% {
+        content: "w";
+    }
+
+    22% {
+        content: "we";
+    }
+
+    22.5% {
+        content: "web";
+    }
+
+    23% {
+        content: "web ";
+    }
+
+    23.5% {
+        content: "web d";
+    }
+
+    24% {
+        content: "web de";
+    }
+
+    24.5% {
+        content: "web dev";
+    }
+
+    25% {
+        content: "web deve";
+    }
+
+    25.5% {
+        content: "web devel";
+    }
+
+    26% {
+        content: "web develo";
+    }
+
+    26.5% {
+        content: "web develop";
+    }
+
+    27% {
+        content: "web develope";
+    }
+
+    27.5% {
+        content: "web developer";
+    }
+
+    /* Pause */
+    28.5% {
+        content: "web developer";
+    }
+
+    /* Erase */
+    29% {
+        content: "web develope";
+    }
+
+    29.5% {
+        content: "web develop";
+    }
+
+    30% {
+        content: "web develo";
+    }
+
+    30.5% {
+        content: "web devel";
+    }
+
+    31% {
+        content: "web deve";
+    }
+
+    31.5% {
+        content: "web dev";
+    }
+
+    32% {
+        content: "web de";
+    }
+
+    32.5% {
+        content: "web d";
+    }
+
+    33% {
+        content: "web ";
+    }
+
+    33.5% {
+        content: "web";
+    }
+
+    34% {
+        content: "we";
+    }
+
+    34.5% {
+        content: "w";
+    }
+
+    35% {
+        content: "";
+    }
+
+    /* Full-Stack Developer */
+    35.5% {
+        content: "f";
+    }
+
+    36% {
+        content: "fu";
+    }
+
+    36.5% {
+        content: "ful";
+    }
+
+    37% {
+        content: "full";
+    }
+
+    37.5% {
+        content: "full-";
+    }
+
+    38% {
+        content: "full-s";
+    }
+
+    38.5% {
+        content: "full-st";
+    }
+
+    39% {
+        content: "full-sta";
+    }
+
+    39.5% {
+        content: "full-stac";
+    }
+
+    40% {
+        content: "full-stack";
+    }
+
+    40.5% {
+        content: "full-stack ";
+    }
+
+    41% {
+        content: "full-stack d";
+    }
+
+    41.5% {
+        content: "full-stack de";
+    }
+
+    42% {
+        content: "full-stack dev";
+    }
+
+    42.5% {
+        content: "full-stack deve";
+    }
+
+    43% {
+        content: "full-stack devel";
+    }
+
+    43.5% {
+        content: "full-stack develo";
+    }
+
+    44% {
+        content: "full-stack develop";
+    }
+
+    44.5% {
+        content: "full-stack develope";
+    }
+
+    45% {
+        content: "full-stack developer";
+    }
+
+    /* Pause */
+    45.5% {
+        content: "full-stack developer";
+    }
+
+    /* Erase */
+    46% {
+        content: "full-stack develope";
+    }
+
+    46.5% {
+        content: "full-stack develop";
+    }
+
+    47% {
+        content: "full-stack develo";
+    }
+
+    47.5% {
+        content: "full-stack devel";
+    }
+
+    48% {
+        content: "full-stack deve";
+    }
+
+    49% {
+        content: "full-stack dev";
+    }
+
+    50% {
+        content: "full-stack de";
+    }
+
+    50.5% {
+        content: "full-stack d";
+    }
+
+    51% {
+        content: "full-stack ";
+    }
+
+    52% {
+        content: "full-stack";
+    }
+
+    52.5% {
+        content: "full-stac";
+    }
+
+    53% {
+        content: "full-sta";
+    }
+
+    54% {
+        content: "full-st";
+    }
+
+    54.5% {
+        content: "full-s";
+    }
+
+    55% {
+        content: "full-";
+    }
+
+    56% {
+        content: "full";
+    }
+
+    56.5% {
+        content: "ful";
+    }
+
+    57% {
+        content: "fu";
+    }
+
+    58% {
+        content: "f";
+    }
+
+    58.5% {
+        content: "";
+    }
+
+    59% {
+        content: "Re";
+    }
+
+    59.5% {
+        content: "Rea";
+    }
+
+    60% {
+        content: "Reac";
+    }
+
+    61% {
+        content: "React";
+    }
+
+    61.5% {
+        content: "React ";
+    }
+
+    62% {
+        content: "React d";
+    }
+
+    63% {
+        content: "React de";
+    }
+
+    63.5% {
+        content: "React dev";
+    }
+
+    64% {
+        content: "React deve";
+    }
+
+    65% {
+        content: "React devel";
+    }
+
+    65.5% {
+        content: "React develo";
+    }
+
+    66% {
+        content: "React develop";
+    }
+
+    67% {
+        content: "React develope";
+    }
+
+    67.5% {
+        content: "React developer";
+    }
+
+    68% {
+        content: "React develope";
+    }
+
+    69% {
+        content: "React develop";
+    }
+
+    69.5% {
+        content: "React develo";
+    }
+
+    70% {
+        content: "React devel";
+    }
+
+    71% {
+        content: "React deve";
+    }
+
+    71.5% {
+        content: "React dev";
+    }
+
+    72% {
+        content: "React de";
+    }
+
+    72.5% {
+        content: "React d";
+    }
+
+    73% {
+        content: "React ";
+    }
+
+    73.5% {
+        content: "React";
+    }
+
+    74% {
+        content: "Reac";
+    }
+
+    75% {
+        content: "Rea";
+    }
+
+    76.5% {
+        content: "Re";
+    }
+
+    78% {
+        content: "R";
+    }
+
+    79% {
+        content: "";
+    }
+
+    100% {
+        content: "";
+    }
+}
+
+/**/
+
+.hed {
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+}
+
+.con {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+/* progress bar */
+
+
+.box {
+    position: relative;
+    margin: 40px;
+    margin-right: 60px;
+}
+
+.box .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.box .text h2 {
+    font-size: 38px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.box .text small {
+    font-size: 18px;
+    display: block;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle .points {
+    width: 3px;
+    height: 15px;
+    background: #0007;
+    position: absolute;
+    border-radius: 3px;
+    transform: rotate(calc(var(--i)*var(--rot))) translateY(-100px);
+
+}
+
+.points.marked {
+    animation: glow 0.04s linear forwards;
+    animation-delay: calc(var(--i)*0.05s);
+}
+
+@keyframes glow {
+    0% {
+        background: #0007;
+        box-shadow: none;
+    }
+
+    100% {
+        background: var(--bgColor);
+        box-shadow: 0 0 10px var(--bgColor);
+    }
+}
+
+/* contact */
+.contact {
+    margin: 20px;
+}
+
+.input-field {
+    position: relative;
+}
+
+.input-field input {
+    width: 350px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 0 15px;
+    border: 2px solid #07e7f7;
+    outline: none;
+    background: transparent;
+    color: #fff
+}
+
+.input-field label {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 19px;
+    pointer-events: none;
+    transition: .3s;
+}
+
+input:focus {
+    border: 2px solid white;
+}
+
+input:focus~label,
+input:valid~label {
+    top: 0;
+    font-size: 16px;
+    padding: 0 10px;
+    background: #111826;
+}
+
+/* textarea */
+.input-field textarea {
+    width: 720px;
+    height: 200px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 0 15px;
+    border: 2px solid #07e7f7;
+    outline: none;
+    background: transparent;
+    color: #fff
+}
+
+textarea:focus {
+    border: 2px solid white;
+}
+
+textarea:focus~label,
+textarea:valid~label {
+    top: 0;
+    font-size: 16px;
+    padding: 0 10px;
+    background: #111826;
+}
+
+.contact-button {
+    height: 45px;
+    width: 155px;
+    padding: 10px;
+    color: #111826;
+    border-width: 0px;
+    background-color: #07e7f7;
+    font-size: 20px;
+    font-weight: bold;
+    border-width: 0px;
+    border-radius: 5px;
+}
+
+/* sm view contact */
+
+.input-field .input {
+    width: 350px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 0 15px;
+    border: 2px solid #07e7f7;
+    outline: none;
+    background: transparent;
+    color: #fff
+}
+
+.input-field label {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 19px;
+    pointer-events: none;
+    transition: .3s;
+    font-weight: bold;
+    font-family: "roboto";
+}
+
+.input:focus {
+    border: 2px solid white;
+}
+
+.input:focus~label,
+i.nput:valid~label {
+    top: 0;
+    font-size: 16px;
+    padding: 0 10px;
+    background: #111826;
+}
+
+/* textarea */
+.input-field .textarea {
+    width: 350px;
+    height: 100px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 0 15px;
+    border: 2px solid #07e7f7;
+    outline: none;
+    background: transparent;
+    color: #fff
+}
+
+.textarea:focus {
+    border: 2px solid white;
+}
+
+.textarea:focus~label,
+.textarea:valid~label {
+    top: 0;
+    font-size: 16px;
+    padding: 0 10px;
+    background: #111826;
+}
+
+/* extra small device view contact */
+
+.input-field .input-s {
+    width: 280px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 0 15px;
+    border: 2px solid #07e7f7;
+    outline: none;
+    background: transparent;
+    color: #fff
+}
+
+.input-field .label-s {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 15px;
+    pointer-events: none;
+    transition: .3s;
+    font-weight: bold;
+}
+
+.input-s:focus {
+    border: 2px solid white;
+}
+
+.input-s:focus~label,
+i.nput-s:valid~label {
+    top: 0;
+    font-size: 16px;
+    padding: 0 10px;
+    background: #111826;
+}
+
+/* textarea */
+.input-field .textarea-s {
+    width: 280px;
+    height: 100px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 0 15px;
+    border: 2px solid #07e7f7;
+    outline: none;
+    background: transparent;
+    color: #fff
+}
+
+.textarea-s:focus {
+    border: 2px solid white;
+}
+
+.textarea-s:focus~label,
+.textarea-s:valid~label {
+    top: 0;
+    font-size: 16px;
+    padding: 0 10px;
+    background: #111826;
+}
+
+.contact-s {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+::placeholder {
+    color: white;
+}
+
+
+/* footer section */
+
+.footer {
+    background-color: #212938;
+}
+
+.footer-head {
+    color: #07e7f7;
+    font-weight: bold;
+    font-family: "roboto";
+    text-decoration: underline;
+
+}
+
+.footer-heading {
+    color: #bbbdbf;
+}
+
+.footer-para {
+    color: #8c8d91;
+}
+
+/* Quick link */
+.list {
+    list-style-type: none;
+    margin-bottom: 10px;
+
+}
+
+.link {
+    color: #bbbdbf;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* copyright */
+
+.hr-line {
+    background-color: #898c8c;
+    width: 100%;
+}
